@@ -1,7 +1,7 @@
 import { ModeToggle } from "../layout/ModeToggle";
 import logo from "../../assets/code.png";
 
-export default function NavBar () {
+export default function Header () {
     return (
         <header className="bg-background">
             <div className="flex justify-between items-center px-4 py-2 font-sans">
