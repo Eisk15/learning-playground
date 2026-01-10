@@ -3,7 +3,7 @@
 // import viteLogo from '/vite.svg'
 import './App.css'
 import LandingPage from './pages/LandingPage'
-import { ThemeProvider } from './components/layout/ThemeProvider'
+import { ThemeProvider } from './components/landing-page/Header/ThemeProvider'
 
 function App() {
   return (

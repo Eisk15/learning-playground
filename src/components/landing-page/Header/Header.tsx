@@ -1,6 +1,6 @@
-import { ModeToggle } from "../layout/ModeToggle";
-import logo from "../../assets/code.png";
-
+import { ModeToggle } from "./ThemeModeToggle";
+import logo from "../../../assets/code.png";
+import { NavBar } from "./NavBar";
 export default function Header () {
     return (
         <header className="bg-background">
@@ -13,11 +13,7 @@ export default function Header () {
                 </div>
 
                 {/* navigation-menu */}
-                <nav className="space-x-6 text-base font-medium ">
-                    <a href="#" className="text-muted-foreground hover:text-foreground ">Data Structures</a>
-                    <a href="#" className="text-muted-foreground hover:text-foreground">Algorithms</a>
-                    <a href="#" className="text-muted-foreground hover:text-foreground">Fundamentals</a>
-                </nav>
+                <NavBar/>
 
                 {/* theme-toggle */}
                 <ModeToggle/>
